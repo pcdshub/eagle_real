@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -162,14 +162,14 @@
 <wire x1="104.14" y1="-32.766" x2="104.14" y2="90.424" width="0" layer="20" locked="yes"/>
 <wire x1="104.14" y1="90.424" x2="0.508" y2="90.424" width="0" layer="20" locked="yes"/>
 <wire x1="0.508" y1="90.424" x2="0" y2="-33.02" width="0" layer="20" locked="yes"/>
-<dimension x1="0" y1="-33.02" x2="98.806" y2="-30.734" x3="49.403" y3="-39.624" textsize="1.778" layer="48" dtype="horizontal"/>
 <wire x1="26.289" y1="109.093" x2="26.289" y2="-33.147" width="0.1524" layer="48" locked="yes"/>
 <wire x1="26.289" y1="-33.147" x2="26.416" y2="-33.274" width="0.1524" layer="48"/>
 <wire x1="58.166" y1="109.093" x2="58.166" y2="-33.02" width="0.1524" layer="48" locked="yes"/>
 <wire x1="58.166" y1="-33.02" x2="58.293" y2="-33.147" width="0.1524" layer="48"/>
 <wire x1="58.293" y1="-33.147" x2="58.293" y2="-33.274" width="0.1524" layer="48"/>
-<dimension x1="0" y1="-33.02" x2="127" y2="-33.02" x3="63.5" y3="-47.752" textsize="1.778" layer="48"/>
 <wire x1="97.282" y1="108.839" x2="97.282" y2="-33.274" width="0.1524" layer="48" locked="yes"/>
+<dimension x1="0.762" y1="-37.338" x2="104.14" y2="-37.338" x3="52.451" y3="-45.72" textsize="1.778" layer="48" dtype="horizontal"/>
+<dimension x1="-1.524" y1="-32.766" x2="-1.27" y2="89.916" x3="-3.81" y3="28.575" textsize="1.778" layer="48" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="real_library">
@@ -1775,144 +1775,144 @@ design rules under a new name.</description>
 <element name="CANBUS" library="real_library" package="0446200002" package3d_urn="urn:adsk.eagle:package:8078921/1" value="RJ45-0446200002" x="10.16" y="-19.304" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="10.16" y="-19.304" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="0446200002" x="10.16" y="-19.304" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="10.16" y="-16.764" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="17.272" y="-21.844" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="9251910" x="10.16" y="-19.304" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.7" y="-16.764" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="FET8-1:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="18.28799375" smashed="yes" rot="R270">
+<element name="F1:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="18.28799375" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A0))" x="32.004" y="18.28799375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.704" y="23.68799375" size="1.4224" layer="25" rot="R270"/>
+<attribute name="NAME" x="37.212" y="21.65599375" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="25.804" y="22.98799375" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-1:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="9.9906625" smashed="yes" rot="R270">
+<element name="F1:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="9.9906625" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A1))" x="32.004" y="9.9906625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.704" y="15.3906625" size="1.4224" layer="25" rot="R270"/>
+<attribute name="NAME" x="36.196" y="13.8666625" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="25.804" y="14.6906625" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-1:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="1.69333125" smashed="yes" rot="R270">
+<element name="F1:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="1.69333125" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A2))" x="32.004" y="1.69333125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.704" y="7.09333125" size="1.4224" layer="25" rot="R270"/>
+<attribute name="NAME" x="36.958" y="5.06133125" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="25.804" y="6.39333125" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-1:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="-6.604" smashed="yes" rot="R270">
+<element name="F1:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="-6.604" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A3))" x="32.004" y="-6.604" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.704" y="-1.204" size="1.4224" layer="25" rot="R270"/>
+<attribute name="NAME" x="35.942" y="-2.982" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="25.804" y="-1.904" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-1:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="-6.35" smashed="yes" rot="R90">
+<element name="F1:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="-6.35" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A4))" x="52.959" y="-6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.259" y="-11.75" size="1.4224" layer="25" rot="R90"/>
+<attribute name="NAME" x="48.005" y="-10.48" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="59.159" y="-11.05" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-1:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="1.94733125" smashed="yes" rot="R90">
+<element name="F1:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="1.94733125" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A5))" x="52.959" y="1.94733125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.259" y="-3.45266875" size="1.4224" layer="25" rot="R90"/>
+<attribute name="NAME" x="49.021" y="-2.18266875" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="59.159" y="-2.75266875" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-1:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="10.2446625" smashed="yes" rot="R90">
+<element name="F1:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="10.2446625" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A6))" x="52.959" y="10.2446625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.259" y="4.8446625" size="1.4224" layer="25" rot="R90"/>
+<attribute name="NAME" x="48.259" y="6.6226625" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="59.159" y="5.5446625" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-1:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="18.54199375" smashed="yes" rot="R90">
+<element name="F1:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="18.54199375" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A7))" x="52.959" y="18.54199375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.259" y="13.14199375" size="1.4224" layer="25" rot="R90"/>
+<attribute name="NAME" x="49.021" y="14.66599375" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="59.159" y="13.84199375" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-2:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="62.991996875" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.324" y="62.991996875" size="1.4224" layer="25" rot="R90"/>
+<element name="F2:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="62.991996875" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.244" y="59.181996875" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="52.324" y="62.991996875" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-2:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="54.52533125" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.324" y="54.52533125" size="1.4224" layer="25" rot="R90"/>
+<element name="F2:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="54.52533125" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.514" y="50.71533125" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="52.324" y="54.52533125" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-2:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="46.058665625" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.816" y="37.930665625" size="1.4224" layer="25" rot="R90"/>
+<element name="F2:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="46.058665625" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.244" y="41.994665625" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="51.816" y="37.930665625" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-2:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="37.592" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.324" y="37.592" size="1.4224" layer="25" rot="R90"/>
+<element name="F2:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="37.592" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.514" y="33.528" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="52.324" y="37.592" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-2:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="62.991996875" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.004" y="62.991996875" size="1.4224" layer="25" rot="R270"/>
+<element name="F2:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="62.991996875" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.322" y="66.293996875" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="32.004" y="62.991996875" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-2:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="54.52533125" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.75" y="54.52533125" size="1.4224" layer="25" rot="R270"/>
+<element name="F2:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="54.52533125" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.56" y="57.57333125" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="31.75" y="54.52533125" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-2:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="46.058665625" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.75" y="46.058665625" size="1.4224" layer="25" rot="R270"/>
+<element name="F2:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="46.058665625" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.83" y="48.852665625" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="31.75" y="46.058665625" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-2:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="37.592" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.75" y="37.592" size="1.4224" layer="25" rot="R270"/>
+<element name="F2:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="37.592" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.814" y="40.64" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="31.75" y="37.592" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-3:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="18.542" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="18.542" size="1.4224" layer="25" rot="R270"/>
+<element name="F3:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="18.542" smashed="yes" rot="R270">
+<attribute name="NAME" x="74.422" y="21.59" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="18.542" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-3:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="10.16" size="1.4224" layer="25" rot="R270"/>
+<element name="F3:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="10.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.152" y="12.954" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="10.16" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-3:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="1.524" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="1.524" size="1.4224" layer="25" rot="R270"/>
+<element name="F3:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="1.524" smashed="yes" rot="R270">
+<attribute name="NAME" x="74.422" y="4.318" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="1.524" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-3:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="-6.858" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="-6.858" size="1.4224" layer="25" rot="R270"/>
+<element name="F3:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="-6.858" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.406" y="-4.064" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="-6.858" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-3:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="-6.604" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="-6.604" size="1.4224" layer="25" rot="R90"/>
+<element name="F3:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="-6.604" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.376" y="-10.414" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="-6.604" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-3:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="1.016" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="1.016" size="1.4224" layer="25" rot="R90"/>
+<element name="F3:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="1.016" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.154" y="-2.794" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="1.016" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-3:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="10.16" size="1.4224" layer="25" rot="R90"/>
+<element name="F3:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.884" y="7.112" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="10.16" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-3:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="18.796" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="18.796" size="1.4224" layer="25" rot="R90"/>
+<element name="F3:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="18.796" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.154" y="15.494" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="18.796" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-4:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="63.5" size="1.4224" layer="25" rot="R90"/>
+<element name="F4:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.884" y="59.436" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="63.5" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-4:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="55.118" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="55.118" size="1.4224" layer="25" rot="R90"/>
+<element name="F4:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="55.118" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.408" y="51.308" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="55.118" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-4:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="46.482" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="46.482" size="1.4224" layer="25" rot="R90"/>
+<element name="F4:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="46.482" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.884" y="42.418" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="46.482" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-4:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.964" y="38.1" size="1.4224" layer="25" rot="R90"/>
+<element name="F4:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.154" y="34.036" size="1.4224" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="38.1" size="1.4224" layer="27" rot="R90"/>
 </element>
-<element name="FET8-4:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="62.992" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="62.992" size="1.4224" layer="25" rot="R270"/>
+<element name="F4:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="62.992" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.152" y="66.548" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="62.992" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-4:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="54.61" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="54.61" size="1.4224" layer="25" rot="R270"/>
+<element name="F4:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="54.61" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.914" y="57.912" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="54.61" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-4:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="45.974" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="45.974" size="1.4224" layer="25" rot="R270"/>
+<element name="F4:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="45.974" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.406" y="49.53" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="45.974" size="1.4224" layer="27" rot="R270"/>
 </element>
-<element name="FET8-4:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="37.592" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.342" y="37.592" size="1.4224" layer="25" rot="R270"/>
+<element name="F4:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="37.592" smashed="yes" rot="R270">
+<attribute name="NAME" x="74.168" y="41.148" size="1.4224" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.342" y="37.592" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="J2" library="real_library" package="POWER_JACK_PTH" value="POWER_JACK" x="-2.54" y="80.518" smashed="yes" rot="R270">
@@ -1921,89 +1921,89 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-3.81" y="75.438" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="JP_CAN_TERM" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="13.97" y="51.816" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.43" y="51.816" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="12.446" y="46.736" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="13.97" y="51.816" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP_I2C" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="7.874" y="52.705" smashed="yes">
-<attribute name="NAME" x="6.604" y="50.165" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="4.699" y="49.022" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="7.874" y="52.705" size="1.27" layer="27"/>
 </element>
 <element name="JP_RS485_TERM" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="18.288" y="51.816" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.748" y="51.816" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="21.336" y="46.482" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.288" y="51.816" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RS485" library="real_library" package="0446200002" package3d_urn="urn:adsk.eagle:package:8078921/1" value="RJ45-0446200002" x="10.16" y="0.508" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="10.16" y="0.508" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="0446200002" x="10.16" y="0.508" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.7" y="4.318" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="17.272" y="-2.794" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="9251910" x="10.16" y="0.508" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.7" y="-0.762" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_CAN" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="120" x="14.13933125" y="63.246" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.90033125" y="61.722" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="11.47233125" y="65.532" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="SPICEPREFIX" value="120" x="14.13933125" y="63.246" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.86933125" y="64.516" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R_RS485" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="120" x="18.287996875" y="63.246" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.017996875" y="63.246" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="17.017996875" y="59.69" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEPREFIX" value="120" x="18.287996875" y="63.246" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.747996875" y="64.516" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R_SCL" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="4.7K" x="9.990665625" y="63.246" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.800665625" y="64.516" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="8.466665625" y="60.706" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEPREFIX" value="120" x="9.990665625" y="63.246" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="8.720665625" y="61.976" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R_SDA" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="4.7K" x="5.842" y="63.246" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.572" y="61.976" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="4.064" y="60.198" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEPREFIX" value="120" x="5.842" y="63.246" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="8.382" y="61.976" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$1" library="real_library" package="CAN485" value="CAN485FULL_SOCKET" x="12.192" y="29.718" smashed="yes" rot="R180"/>
 <element name="U1" library="real_library" package="TSSOP28" value="" x="41.402" y="28.194" smashed="yes">
-<attribute name="NAME" x="34.544" y="26.416" size="0.4064" layer="25" rot="R90"/>
+<attribute name="NAME" x="36.576" y="26.162" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="41.402" y="28.194" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="U2" library="real_library" package="TSSOP28" value="" x="81.28" y="27.686" smashed="yes">
-<attribute name="NAME" x="83.82" y="25.146" size="0.4064" layer="25" rot="R90"/>
+<attribute name="NAME" x="76.454" y="25.654" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="81.28" y="27.686" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="FET8-1:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="47.752" y="-15.494" smashed="yes">
+<element name="F1:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="47.752" y="-15.494" smashed="yes">
 <attribute name="AVAILABILITY" value="Unavailable" x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn D-Subminiature F/F 9/9 POS 2.77mm Solder RA Thru-Hole 18 Terminal 2 Port " x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="NorComp Inc." x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="189-009-513R571" x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.9613" y="-13.61318125" size="1.27083125" layer="25"/>
+<attribute name="NAME" x="26.05918125" y="-32.7287" size="1.27083125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.5958" y="-41.903" size="1.272040625" layer="27"/>
 </element>
-<element name="FET8-2:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="36.322" y="72.898" smashed="yes" rot="R180">
+<element name="F2:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="36.322" y="72.898" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn D-Subminiature F/F 9/9 POS 2.77mm Solder RA Thru-Hole 18 Terminal 2 Port " x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="NorComp Inc." x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="189-009-513R571" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="57.1127" y="71.01718125" size="1.27083125" layer="25" rot="R180"/>
+<attribute name="NAME" x="57.76081875" y="89.6247" size="1.27083125" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="52.4782" y="99.307" size="1.272040625" layer="27" rot="R180"/>
 </element>
-<element name="FET8-3:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="87.376" y="-15.24" smashed="yes">
+<element name="F3:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="87.376" y="-15.24" smashed="yes">
 <attribute name="AVAILABILITY" value="Unavailable" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn D-Subminiature F/F 9/9 POS 2.77mm Solder RA Thru-Hole 18 Terminal 2 Port " x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="NorComp Inc." x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="189-009-513R571" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="66.5853" y="-13.35918125" size="1.27083125" layer="25"/>
+<attribute name="NAME" x="65.93718125" y="-32.7287" size="1.27083125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="71.2198" y="-41.649" size="1.272040625" layer="27"/>
 </element>
-<element name="FET8-4:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="76.2" y="73.406" smashed="yes" rot="R180">
+<element name="F4:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="76.2" y="73.406" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn D-Subminiature F/F 9/9 POS 2.77mm Solder RA Thru-Hole 18 Terminal 2 Port " x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="NorComp Inc." x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="189-009-513R571" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96.9907" y="71.52518125" size="1.27083125" layer="25" rot="R180"/>
+<attribute name="NAME" x="99.21118125" y="81.3173" size="1.27083125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="92.3562" y="99.815" size="1.272040625" layer="27" rot="R180"/>
@@ -2048,126 +2048,126 @@ design rules under a new name.</description>
 <contactref element="CANBUS" pad="3"/>
 <contactref element="CANBUS" pad="6"/>
 <contactref element="RS485" pad="5"/>
-<contactref element="FET8-1:FET3" pad="3"/>
-<contactref element="FET8-2:FET3" pad="3"/>
-<contactref element="FET8-3:FET3" pad="3"/>
-<contactref element="FET8-4:FET3" pad="3"/>
-<contactref element="FET8-1:FET5" pad="3"/>
-<contactref element="FET8-2:FET5" pad="3"/>
-<contactref element="FET8-3:FET5" pad="3"/>
-<contactref element="FET8-4:FET5" pad="3"/>
-<contactref element="FET8-1:FET1" pad="3"/>
-<contactref element="FET8-2:FET1" pad="3"/>
-<contactref element="FET8-3:FET1" pad="3"/>
-<contactref element="FET8-4:FET1" pad="3"/>
-<contactref element="FET8-1:FET7" pad="3"/>
-<contactref element="FET8-2:FET7" pad="3"/>
-<contactref element="FET8-3:FET7" pad="3"/>
-<contactref element="FET8-4:FET7" pad="3"/>
-<contactref element="FET8-1:FET2" pad="3"/>
-<contactref element="FET8-2:FET2" pad="3"/>
-<contactref element="FET8-3:FET2" pad="3"/>
-<contactref element="FET8-4:FET2" pad="3"/>
-<contactref element="FET8-1:FET4" pad="3"/>
-<contactref element="FET8-2:FET4" pad="3"/>
-<contactref element="FET8-3:FET4" pad="3"/>
-<contactref element="FET8-4:FET4" pad="3"/>
-<contactref element="FET8-1:FET6" pad="3"/>
-<contactref element="FET8-2:FET6" pad="3"/>
-<contactref element="FET8-3:FET6" pad="3"/>
-<contactref element="FET8-4:FET6" pad="3"/>
-<contactref element="FET8-1:FET8" pad="3"/>
-<contactref element="FET8-2:FET8" pad="3"/>
-<contactref element="FET8-3:FET8" pad="3"/>
-<contactref element="FET8-4:FET8" pad="3"/>
-<contactref element="FET8-1:J1" pad="A9"/>
-<contactref element="FET8-2:J1" pad="A9"/>
-<contactref element="FET8-3:J1" pad="A9"/>
-<contactref element="FET8-4:J1" pad="A9"/>
-<contactref element="FET8-1:J1" pad="B9"/>
-<contactref element="FET8-2:J1" pad="B9"/>
-<contactref element="FET8-3:J1" pad="B9"/>
-<contactref element="FET8-4:J1" pad="B9"/>
-<contactref element="FET8-1:J1" pad="SH1"/>
-<contactref element="FET8-1:J1" pad="SH3"/>
-<contactref element="FET8-1:J1" pad="SH2"/>
-<contactref element="FET8-1:J1" pad="SH4"/>
-<contactref element="FET8-2:J1" pad="SH1"/>
-<contactref element="FET8-2:J1" pad="SH3"/>
-<contactref element="FET8-2:J1" pad="SH2"/>
-<contactref element="FET8-2:J1" pad="SH4"/>
-<contactref element="FET8-3:J1" pad="SH1"/>
-<contactref element="FET8-3:J1" pad="SH3"/>
-<contactref element="FET8-3:J1" pad="SH2"/>
-<contactref element="FET8-3:J1" pad="SH4"/>
-<contactref element="FET8-4:J1" pad="SH1"/>
-<contactref element="FET8-4:J1" pad="SH3"/>
-<contactref element="FET8-4:J1" pad="SH2"/>
-<contactref element="FET8-4:J1" pad="SH4"/>
-<contactref element="FET8-1:FET1" pad="1"/>
-<contactref element="FET8-1:FET1" pad="2"/>
-<contactref element="FET8-2:FET1" pad="1"/>
-<contactref element="FET8-2:FET1" pad="2"/>
-<contactref element="FET8-3:FET1" pad="1"/>
-<contactref element="FET8-3:FET1" pad="2"/>
-<contactref element="FET8-4:FET1" pad="1"/>
-<contactref element="FET8-4:FET1" pad="2"/>
-<contactref element="FET8-1:FET2" pad="1"/>
-<contactref element="FET8-1:FET2" pad="2"/>
-<contactref element="FET8-2:FET2" pad="1"/>
-<contactref element="FET8-2:FET2" pad="2"/>
-<contactref element="FET8-3:FET2" pad="1"/>
-<contactref element="FET8-3:FET2" pad="2"/>
-<contactref element="FET8-4:FET2" pad="1"/>
-<contactref element="FET8-4:FET2" pad="2"/>
-<contactref element="FET8-1:FET3" pad="1"/>
-<contactref element="FET8-1:FET3" pad="2"/>
-<contactref element="FET8-2:FET3" pad="1"/>
-<contactref element="FET8-2:FET3" pad="2"/>
-<contactref element="FET8-3:FET3" pad="1"/>
-<contactref element="FET8-3:FET3" pad="2"/>
-<contactref element="FET8-4:FET3" pad="1"/>
-<contactref element="FET8-4:FET3" pad="2"/>
-<contactref element="FET8-1:FET4" pad="1"/>
-<contactref element="FET8-1:FET4" pad="2"/>
-<contactref element="FET8-2:FET4" pad="1"/>
-<contactref element="FET8-2:FET4" pad="2"/>
-<contactref element="FET8-3:FET4" pad="1"/>
-<contactref element="FET8-3:FET4" pad="2"/>
-<contactref element="FET8-4:FET4" pad="1"/>
-<contactref element="FET8-4:FET4" pad="2"/>
-<contactref element="FET8-1:FET5" pad="1"/>
-<contactref element="FET8-1:FET5" pad="2"/>
-<contactref element="FET8-2:FET5" pad="1"/>
-<contactref element="FET8-2:FET5" pad="2"/>
-<contactref element="FET8-3:FET5" pad="1"/>
-<contactref element="FET8-3:FET5" pad="2"/>
-<contactref element="FET8-4:FET5" pad="1"/>
-<contactref element="FET8-4:FET5" pad="2"/>
-<contactref element="FET8-1:FET6" pad="1"/>
-<contactref element="FET8-1:FET6" pad="2"/>
-<contactref element="FET8-2:FET6" pad="1"/>
-<contactref element="FET8-2:FET6" pad="2"/>
-<contactref element="FET8-3:FET6" pad="1"/>
-<contactref element="FET8-3:FET6" pad="2"/>
-<contactref element="FET8-4:FET6" pad="1"/>
-<contactref element="FET8-4:FET6" pad="2"/>
-<contactref element="FET8-1:FET7" pad="1"/>
-<contactref element="FET8-1:FET7" pad="2"/>
-<contactref element="FET8-2:FET7" pad="1"/>
-<contactref element="FET8-2:FET7" pad="2"/>
-<contactref element="FET8-3:FET7" pad="1"/>
-<contactref element="FET8-3:FET7" pad="2"/>
-<contactref element="FET8-4:FET7" pad="1"/>
-<contactref element="FET8-4:FET7" pad="2"/>
-<contactref element="FET8-1:FET8" pad="1"/>
-<contactref element="FET8-1:FET8" pad="2"/>
-<contactref element="FET8-2:FET8" pad="1"/>
-<contactref element="FET8-2:FET8" pad="2"/>
-<contactref element="FET8-3:FET8" pad="1"/>
-<contactref element="FET8-3:FET8" pad="2"/>
-<contactref element="FET8-4:FET8" pad="1"/>
-<contactref element="FET8-4:FET8" pad="2"/>
+<contactref element="F1:FET3" pad="3"/>
+<contactref element="F2:FET3" pad="3"/>
+<contactref element="F3:FET3" pad="3"/>
+<contactref element="F4:FET3" pad="3"/>
+<contactref element="F1:FET5" pad="3"/>
+<contactref element="F2:FET5" pad="3"/>
+<contactref element="F3:FET5" pad="3"/>
+<contactref element="F4:FET5" pad="3"/>
+<contactref element="F1:FET1" pad="3"/>
+<contactref element="F2:FET1" pad="3"/>
+<contactref element="F3:FET1" pad="3"/>
+<contactref element="F4:FET1" pad="3"/>
+<contactref element="F1:FET7" pad="3"/>
+<contactref element="F2:FET7" pad="3"/>
+<contactref element="F3:FET7" pad="3"/>
+<contactref element="F4:FET7" pad="3"/>
+<contactref element="F1:FET2" pad="3"/>
+<contactref element="F2:FET2" pad="3"/>
+<contactref element="F3:FET2" pad="3"/>
+<contactref element="F4:FET2" pad="3"/>
+<contactref element="F1:FET4" pad="3"/>
+<contactref element="F2:FET4" pad="3"/>
+<contactref element="F3:FET4" pad="3"/>
+<contactref element="F4:FET4" pad="3"/>
+<contactref element="F1:FET6" pad="3"/>
+<contactref element="F2:FET6" pad="3"/>
+<contactref element="F3:FET6" pad="3"/>
+<contactref element="F4:FET6" pad="3"/>
+<contactref element="F1:FET8" pad="3"/>
+<contactref element="F2:FET8" pad="3"/>
+<contactref element="F3:FET8" pad="3"/>
+<contactref element="F4:FET8" pad="3"/>
+<contactref element="F1:J1" pad="A9"/>
+<contactref element="F2:J1" pad="A9"/>
+<contactref element="F3:J1" pad="A9"/>
+<contactref element="F4:J1" pad="A9"/>
+<contactref element="F1:J1" pad="B9"/>
+<contactref element="F2:J1" pad="B9"/>
+<contactref element="F3:J1" pad="B9"/>
+<contactref element="F4:J1" pad="B9"/>
+<contactref element="F1:J1" pad="SH1"/>
+<contactref element="F1:J1" pad="SH3"/>
+<contactref element="F1:J1" pad="SH2"/>
+<contactref element="F1:J1" pad="SH4"/>
+<contactref element="F2:J1" pad="SH1"/>
+<contactref element="F2:J1" pad="SH3"/>
+<contactref element="F2:J1" pad="SH2"/>
+<contactref element="F2:J1" pad="SH4"/>
+<contactref element="F3:J1" pad="SH1"/>
+<contactref element="F3:J1" pad="SH3"/>
+<contactref element="F3:J1" pad="SH2"/>
+<contactref element="F3:J1" pad="SH4"/>
+<contactref element="F4:J1" pad="SH1"/>
+<contactref element="F4:J1" pad="SH3"/>
+<contactref element="F4:J1" pad="SH2"/>
+<contactref element="F4:J1" pad="SH4"/>
+<contactref element="F1:FET1" pad="1"/>
+<contactref element="F1:FET1" pad="2"/>
+<contactref element="F2:FET1" pad="1"/>
+<contactref element="F2:FET1" pad="2"/>
+<contactref element="F3:FET1" pad="1"/>
+<contactref element="F3:FET1" pad="2"/>
+<contactref element="F4:FET1" pad="1"/>
+<contactref element="F4:FET1" pad="2"/>
+<contactref element="F1:FET2" pad="1"/>
+<contactref element="F1:FET2" pad="2"/>
+<contactref element="F2:FET2" pad="1"/>
+<contactref element="F2:FET2" pad="2"/>
+<contactref element="F3:FET2" pad="1"/>
+<contactref element="F3:FET2" pad="2"/>
+<contactref element="F4:FET2" pad="1"/>
+<contactref element="F4:FET2" pad="2"/>
+<contactref element="F1:FET3" pad="1"/>
+<contactref element="F1:FET3" pad="2"/>
+<contactref element="F2:FET3" pad="1"/>
+<contactref element="F2:FET3" pad="2"/>
+<contactref element="F3:FET3" pad="1"/>
+<contactref element="F3:FET3" pad="2"/>
+<contactref element="F4:FET3" pad="1"/>
+<contactref element="F4:FET3" pad="2"/>
+<contactref element="F1:FET4" pad="1"/>
+<contactref element="F1:FET4" pad="2"/>
+<contactref element="F2:FET4" pad="1"/>
+<contactref element="F2:FET4" pad="2"/>
+<contactref element="F3:FET4" pad="1"/>
+<contactref element="F3:FET4" pad="2"/>
+<contactref element="F4:FET4" pad="1"/>
+<contactref element="F4:FET4" pad="2"/>
+<contactref element="F1:FET5" pad="1"/>
+<contactref element="F1:FET5" pad="2"/>
+<contactref element="F2:FET5" pad="1"/>
+<contactref element="F2:FET5" pad="2"/>
+<contactref element="F3:FET5" pad="1"/>
+<contactref element="F3:FET5" pad="2"/>
+<contactref element="F4:FET5" pad="1"/>
+<contactref element="F4:FET5" pad="2"/>
+<contactref element="F1:FET6" pad="1"/>
+<contactref element="F1:FET6" pad="2"/>
+<contactref element="F2:FET6" pad="1"/>
+<contactref element="F2:FET6" pad="2"/>
+<contactref element="F3:FET6" pad="1"/>
+<contactref element="F3:FET6" pad="2"/>
+<contactref element="F4:FET6" pad="1"/>
+<contactref element="F4:FET6" pad="2"/>
+<contactref element="F1:FET7" pad="1"/>
+<contactref element="F1:FET7" pad="2"/>
+<contactref element="F2:FET7" pad="1"/>
+<contactref element="F2:FET7" pad="2"/>
+<contactref element="F3:FET7" pad="1"/>
+<contactref element="F3:FET7" pad="2"/>
+<contactref element="F4:FET7" pad="1"/>
+<contactref element="F4:FET7" pad="2"/>
+<contactref element="F1:FET8" pad="1"/>
+<contactref element="F1:FET8" pad="2"/>
+<contactref element="F2:FET8" pad="1"/>
+<contactref element="F2:FET8" pad="2"/>
+<contactref element="F3:FET8" pad="1"/>
+<contactref element="F3:FET8" pad="2"/>
+<contactref element="F4:FET8" pad="1"/>
+<contactref element="F4:FET8" pad="2"/>
 <wire x1="94.234" y1="74.8284" x2="94.234" y2="82.8294" width="0" layer="19" extent="1-1"/>
 <wire x1="85.8901" y1="82.8294" x2="94.234" y2="82.8294" width="0" layer="19" extent="1-1"/>
 <wire x1="85.8901" y1="76.2508" x2="85.8901" y2="82.8294" width="0" layer="19" extent="1-1"/>
@@ -2330,11 +2330,11 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="CANLO"/>
 <contactref element="R_CAN" pad="1"/>
 <contactref element="CANBUS" pad="2"/>
-<wire x1="14.097" y1="58.1406" x2="14.097" y2="69.5706" width="0.1524" layer="1"/>
-<wire x1="10.287" y1="54.3306" x2="14.097" y2="58.1406" width="0.1524" layer="1"/>
+<wire x1="12.827" y1="56.8706" x2="12.827" y2="68.8085625" width="0.1524" layer="1"/>
+<wire x1="10.287" y1="54.3306" x2="12.827" y2="56.8706" width="0.1524" layer="1"/>
 <wire x1="10.287" y1="48.0822" x2="10.287" y2="54.3306" width="0.1524" layer="1"/>
 <wire x1="7.1628" y1="44.958" x2="10.287" y2="48.0822" width="0.1524" layer="1"/>
-<wire x1="14.097" y1="69.5706" x2="14.13933125" y2="69.596" width="0.1524" layer="1"/>
+<wire x1="12.827" y1="68.8085625" x2="14.13933125" y2="69.596" width="0.1524" layer="1"/>
 <wire x1="7.1628" y1="44.958" x2="7.112" y2="44.958" width="0.1524" layer="1"/>
 <wire x1="5.7912" y1="-12.2682" x2="5.7912" y2="-16.764" width="0.1524" layer="16"/>
 <wire x1="4.572" y1="-11.049" x2="5.7912" y2="-12.2682" width="0.1524" layer="16"/>
@@ -2375,11 +2375,9 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="R_RS485" pad="2"/>
 <contactref element="JP_RS485_TERM" pad="2"/>
-<wire x1="18.2118" y1="58.1406" x2="18.2118" y2="69.5706" width="0.1524" layer="1"/>
-<wire x1="17.3736" y1="57.3024" x2="18.2118" y2="58.1406" width="0.1524" layer="1"/>
-<wire x1="17.3736" y1="54.0258" x2="17.3736" y2="57.3024" width="0.1524" layer="1"/>
+<wire x1="17.3736" y1="54.0258" x2="17.3736" y2="69.2911875" width="0.1524" layer="1"/>
 <wire x1="18.288" y1="53.1114" x2="17.3736" y2="54.0258" width="0.1524" layer="1"/>
-<wire x1="18.2118" y1="69.5706" x2="18.287996875" y2="69.596" width="0.1524" layer="1"/>
+<wire x1="17.3736" y1="69.2911875" x2="18.287996875" y2="69.596" width="0.1524" layer="1"/>
 <wire x1="18.288" y1="53.1114" x2="18.288" y2="53.086" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$7">
@@ -2491,7 +2489,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A0">
 <contactref element="U1" pad="6"/>
-<contactref element="FET8-1:FET1" pad="4"/>
+<contactref element="F1:FET1" pad="4"/>
 <wire x1="40.386" y1="20.6502" x2="40.386" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="34.8996" y1="15.1638" x2="40.386" y2="20.6502" width="0.1524" layer="1"/>
 <wire x1="30.4038" y1="15.1638" x2="34.8996" y2="15.1638" width="0.1524" layer="1"/>
@@ -2501,7 +2499,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A1">
 <contactref element="U1" pad="7"/>
-<contactref element="FET8-1:FET2" pad="4"/>
+<contactref element="F1:FET2" pad="4"/>
 <wire x1="41.0718" y1="20.8788" x2="41.0718" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="33.2994" y1="13.1064" x2="41.0718" y2="20.8788" width="0.1524" layer="1"/>
 <wire x1="30.9372" y1="13.1064" x2="33.2994" y2="13.1064" width="0.1524" layer="1"/>
@@ -2513,7 +2511,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A2">
 <contactref element="U1" pad="8"/>
-<contactref element="FET8-1:FET3" pad="4"/>
+<contactref element="F1:FET3" pad="4"/>
 <wire x1="41.6814" y1="13.716" x2="41.6814" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="32.766" y1="4.8006" x2="41.6814" y2="13.716" width="0.1524" layer="1"/>
 <wire x1="30.9372" y1="4.8006" x2="32.766" y2="4.8006" width="0.1524" layer="1"/>
@@ -2525,7 +2523,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A3">
 <contactref element="U1" pad="9"/>
-<contactref element="FET8-1:FET4" pad="4"/>
+<contactref element="F1:FET4" pad="4"/>
 <wire x1="42.3672" y1="6.096" x2="42.3672" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="32.8422" y1="-3.429" x2="42.3672" y2="6.096" width="0.1524" layer="1"/>
 <wire x1="31.0134" y1="-3.429" x2="32.8422" y2="-3.429" width="0.1524" layer="1"/>
@@ -2537,7 +2535,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A4">
 <contactref element="U1" pad="10"/>
-<contactref element="FET8-1:FET5" pad="4"/>
+<contactref element="F1:FET5" pad="4"/>
 <wire x1="43.053" y1="5.8674" x2="43.053" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="52.1208" y1="-3.2004" x2="43.053" y2="5.8674" width="0.1524" layer="1"/>
 <wire x1="54.483" y1="-3.2004" x2="52.1208" y2="-3.2004" width="0.1524" layer="1"/>
@@ -2547,7 +2545,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A5">
 <contactref element="U1" pad="11"/>
-<contactref element="FET8-1:FET6" pad="4"/>
+<contactref element="F1:FET6" pad="4"/>
 <wire x1="43.7388" y1="21.336" x2="43.7388" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="51.6636" y1="13.4112" x2="43.7388" y2="21.336" width="0.1524" layer="1"/>
 <wire x1="53.9496" y1="13.4112" x2="51.6636" y2="13.4112" width="0.1524" layer="1"/>
@@ -2559,7 +2557,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A6">
 <contactref element="U1" pad="12"/>
-<contactref element="FET8-1:FET7" pad="4"/>
+<contactref element="F1:FET7" pad="4"/>
 <wire x1="44.3484" y1="21.1836" x2="44.3484" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="51.816" y1="13.716" x2="44.3484" y2="21.1836" width="0.1524" layer="1"/>
 <wire x1="54.1782" y1="13.716" x2="51.816" y2="13.716" width="0.1524" layer="1"/>
@@ -2569,7 +2567,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_A7">
 <contactref element="U1" pad="13"/>
-<contactref element="FET8-1:FET8" pad="4"/>
+<contactref element="F1:FET8" pad="4"/>
 <wire x1="45.0342" y1="24.8412" x2="45.0342" y2="25.2222" width="0.1524" layer="1"/>
 <wire x1="48.1584" y1="21.717" x2="45.0342" y2="24.8412" width="0.1524" layer="1"/>
 <wire x1="54.483" y1="21.717" x2="48.1584" y2="21.717" width="0.1524" layer="1"/>
@@ -2579,7 +2577,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B0">
 <contactref element="U1" pad="15"/>
-<contactref element="FET8-2:FET1" pad="4"/>
+<contactref element="F2:FET1" pad="4"/>
 <wire x1="45.6438" y1="32.8422" x2="45.6438" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="45.6438" y1="42.7482" x2="45.6438" y2="32.8422" width="0.1524" layer="16"/>
 <wire x1="53.9496" y1="51.054" x2="45.6438" y2="42.7482" width="0.1524" layer="16"/>
@@ -2595,7 +2593,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B1">
 <contactref element="U1" pad="16"/>
-<contactref element="FET8-2:FET2" pad="4"/>
+<contactref element="F2:FET2" pad="4"/>
 <wire x1="45.0342" y1="32.1564" x2="45.0342" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="45.0342" y1="43.053" x2="45.0342" y2="32.1564" width="0.1524" layer="16"/>
 <wire x1="53.0352" y1="51.054" x2="45.0342" y2="43.053" width="0.1524" layer="16"/>
@@ -2609,7 +2607,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B2">
 <contactref element="U1" pad="17"/>
-<contactref element="FET8-2:FET3" pad="4"/>
+<contactref element="F2:FET3" pad="4"/>
 <wire x1="44.3484" y1="30.7086" x2="44.3484" y2="31.0896" width="0.1524" layer="1"/>
 <wire x1="44.7294" y1="30.3276" x2="44.3484" y2="30.7086" width="0.1524" layer="1"/>
 <wire x1="50.9778" y1="30.3276" x2="44.7294" y2="30.3276" width="0.1524" layer="1"/>
@@ -2621,7 +2619,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B3">
 <contactref element="U1" pad="18"/>
-<contactref element="FET8-2:FET4" pad="4"/>
+<contactref element="F2:FET4" pad="4"/>
 <wire x1="43.7388" y1="31.8516" x2="43.7388" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="46.3296" y1="34.4424" x2="43.7388" y2="31.8516" width="0.1524" layer="1"/>
 <wire x1="53.34" y1="34.4424" x2="46.3296" y2="34.4424" width="0.1524" layer="1"/>
@@ -2633,7 +2631,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B4">
 <contactref element="U1" pad="19"/>
-<contactref element="FET8-2:FET5" pad="4"/>
+<contactref element="F2:FET5" pad="4"/>
 <wire x1="42.9768" y1="49.3014" x2="42.9768" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="32.4612" y1="59.817" x2="42.9768" y2="49.3014" width="0.1524" layer="1"/>
 <wire x1="30.48" y1="59.817" x2="32.4612" y2="59.817" width="0.1524" layer="1"/>
@@ -2643,7 +2641,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B5">
 <contactref element="U1" pad="20"/>
-<contactref element="FET8-2:FET6" pad="4"/>
+<contactref element="F2:FET6" pad="4"/>
 <wire x1="42.3672" y1="42.5196" x2="42.3672" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="33.528" y1="51.3588" x2="42.3672" y2="42.5196" width="0.1524" layer="1"/>
 <wire x1="30.1752" y1="51.3588" x2="33.528" y2="51.3588" width="0.1524" layer="1"/>
@@ -2653,7 +2651,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B6">
 <contactref element="U1" pad="21"/>
-<contactref element="FET8-2:FET7" pad="4"/>
+<contactref element="F2:FET7" pad="4"/>
 <wire x1="41.6814" y1="33.6804" x2="41.6814" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="32.4612" y1="42.9006" x2="41.6814" y2="33.6804" width="0.1524" layer="1"/>
 <wire x1="30.1752" y1="42.9006" x2="32.4612" y2="42.9006" width="0.1524" layer="1"/>
@@ -2663,7 +2661,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_B7">
 <contactref element="U1" pad="22"/>
-<contactref element="FET8-2:FET8" pad="4"/>
+<contactref element="F2:FET8" pad="4"/>
 <wire x1="41.0718" y1="31.4706" x2="41.0718" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="38.1" y1="34.4424" x2="41.0718" y2="31.4706" width="0.1524" layer="1"/>
 <wire x1="30.1752" y1="34.4424" x2="38.1" y2="34.4424" width="0.1524" layer="1"/>
@@ -2673,7 +2671,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C0">
 <contactref element="U2" pad="6"/>
-<contactref element="FET8-3:FET1" pad="4"/>
+<contactref element="F3:FET1" pad="4"/>
 <wire x1="80.2386" y1="24.3078" x2="80.2386" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="77.6478" y1="21.717" x2="80.2386" y2="24.3078" width="0.1524" layer="1"/>
 <wire x1="68.3514" y1="21.717" x2="77.6478" y2="21.717" width="0.1524" layer="1"/>
@@ -2685,7 +2683,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C1">
 <contactref element="U2" pad="7"/>
-<contactref element="FET8-3:FET2" pad="4"/>
+<contactref element="F3:FET2" pad="4"/>
 <wire x1="80.9244" y1="24.1554" x2="80.9244" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="70.104" y1="13.335" x2="80.9244" y2="24.1554" width="0.1524" layer="1"/>
 <wire x1="68.3514" y1="13.335" x2="70.104" y2="13.335" width="0.1524" layer="1"/>
@@ -2697,7 +2695,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C2">
 <contactref element="U2" pad="8"/>
-<contactref element="FET8-3:FET3" pad="4"/>
+<contactref element="F3:FET3" pad="4"/>
 <wire x1="81.534" y1="16.383" x2="81.534" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="69.7992" y1="4.6482" x2="81.534" y2="16.383" width="0.1524" layer="1"/>
 <wire x1="68.2752" y1="4.6482" x2="69.7992" y2="4.6482" width="0.1524" layer="1"/>
@@ -2709,7 +2707,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C3">
 <contactref element="U2" pad="9"/>
-<contactref element="FET8-3:FET4" pad="4"/>
+<contactref element="F3:FET4" pad="4"/>
 <wire x1="82.2198" y1="7.9248" x2="82.2198" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="70.5612" y1="-3.7338" x2="82.2198" y2="7.9248" width="0.1524" layer="1"/>
 <wire x1="68.2752" y1="-3.7338" x2="70.5612" y2="-3.7338" width="0.1524" layer="1"/>
@@ -2721,7 +2719,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C4">
 <contactref element="U2" pad="10"/>
-<contactref element="FET8-3:FET5" pad="4"/>
+<contactref element="F3:FET5" pad="4"/>
 <wire x1="82.9056" y1="5.1054" x2="82.9056" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="91.44" y1="-3.429" x2="82.9056" y2="5.1054" width="0.1524" layer="1"/>
 <wire x1="94.488" y1="-3.429" x2="91.44" y2="-3.429" width="0.1524" layer="1"/>
@@ -2731,7 +2729,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C5">
 <contactref element="U2" pad="11"/>
-<contactref element="FET8-3:FET6" pad="4"/>
+<contactref element="F3:FET6" pad="4"/>
 <wire x1="83.5914" y1="21.717" x2="83.5914" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="91.9734" y1="13.335" x2="83.5914" y2="21.717" width="0.1524" layer="1"/>
 <wire x1="93.9546" y1="13.335" x2="91.9734" y2="13.335" width="0.1524" layer="1"/>
@@ -2743,7 +2741,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C6">
 <contactref element="U2" pad="12"/>
-<contactref element="FET8-3:FET7" pad="4"/>
+<contactref element="F3:FET7" pad="4"/>
 <wire x1="84.2772" y1="21.4884" x2="84.2772" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="92.1258" y1="13.6398" x2="84.2772" y2="21.4884" width="0.1524" layer="1"/>
 <wire x1="94.1832" y1="13.6398" x2="92.1258" y2="13.6398" width="0.1524" layer="1"/>
@@ -2753,7 +2751,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_C7">
 <contactref element="U2" pad="13"/>
-<contactref element="FET8-3:FET8" pad="4"/>
+<contactref element="F3:FET8" pad="4"/>
 <wire x1="84.8868" y1="24.384" x2="84.8868" y2="24.765" width="0.1524" layer="1"/>
 <wire x1="87.3252" y1="21.9456" x2="84.8868" y2="24.384" width="0.1524" layer="1"/>
 <wire x1="94.488" y1="21.9456" x2="87.3252" y2="21.9456" width="0.1524" layer="1"/>
@@ -2763,7 +2761,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D0">
 <contactref element="U2" pad="15"/>
-<contactref element="FET8-4:FET1" pad="4"/>
+<contactref element="F4:FET1" pad="4"/>
 <wire x1="85.5726" y1="36.8808" x2="85.5726" y2="30.6324" width="0.1524" layer="1"/>
 <wire x1="85.5726" y1="51.8922" x2="85.5726" y2="36.8808" width="0.1524" layer="16"/>
 <wire x1="93.345" y1="59.6646" x2="85.5726" y2="51.8922" width="0.1524" layer="16"/>
@@ -2777,7 +2775,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D1">
 <contactref element="U2" pad="16"/>
-<contactref element="FET8-4:FET2" pad="4"/>
+<contactref element="F4:FET2" pad="4"/>
 <wire x1="84.8868" y1="30.1752" x2="84.8868" y2="30.5562" width="0.1524" layer="1"/>
 <wire x1="85.1916" y1="29.8704" x2="84.8868" y2="30.1752" width="0.1524" layer="1"/>
 <wire x1="88.9254" y1="29.8704" x2="85.1916" y2="29.8704" width="0.1524" layer="1"/>
@@ -2801,7 +2799,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D2">
 <contactref element="U2" pad="17"/>
-<contactref element="FET8-4:FET3" pad="4"/>
+<contactref element="F4:FET3" pad="4"/>
 <wire x1="84.2772" y1="30.1752" x2="84.2772" y2="30.5562" width="0.1524" layer="1"/>
 <wire x1="84.8868" y1="29.5656" x2="84.2772" y2="30.1752" width="0.1524" layer="1"/>
 <wire x1="90.3732" y1="29.5656" x2="84.8868" y2="29.5656" width="0.1524" layer="1"/>
@@ -2813,7 +2811,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D3">
 <contactref element="U2" pad="18"/>
-<contactref element="FET8-4:FET4" pad="4"/>
+<contactref element="F4:FET4" pad="4"/>
 <wire x1="83.5914" y1="35.814" x2="83.5914" y2="30.6324" width="0.1524" layer="1"/>
 <wire x1="89.7636" y1="41.9862" x2="83.5914" y2="35.814" width="0.1524" layer="1"/>
 <wire x1="93.726" y1="41.9862" x2="89.7636" y2="41.9862" width="0.1524" layer="1"/>
@@ -2823,7 +2821,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D4">
 <contactref element="U2" pad="19"/>
-<contactref element="FET8-4:FET5" pad="4"/>
+<contactref element="F4:FET5" pad="4"/>
 <wire x1="82.8294" y1="47.0916" x2="82.8294" y2="30.6324" width="0.1524" layer="1"/>
 <wire x1="70.104" y1="59.817" x2="82.8294" y2="47.0916" width="0.1524" layer="1"/>
 <wire x1="67.818" y1="59.817" x2="70.104" y2="59.817" width="0.1524" layer="1"/>
@@ -2833,7 +2831,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D5">
 <contactref element="U2" pad="20"/>
-<contactref element="FET8-4:FET6" pad="4"/>
+<contactref element="F4:FET6" pad="4"/>
 <wire x1="82.2198" y1="39.0906" x2="82.2198" y2="30.6324" width="0.1524" layer="1"/>
 <wire x1="69.8754" y1="51.435" x2="82.2198" y2="39.0906" width="0.1524" layer="1"/>
 <wire x1="67.818" y1="51.435" x2="69.8754" y2="51.435" width="0.1524" layer="1"/>
@@ -2843,7 +2841,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D6">
 <contactref element="U2" pad="21"/>
-<contactref element="FET8-4:FET7" pad="4"/>
+<contactref element="F4:FET7" pad="4"/>
 <wire x1="81.534" y1="31.3944" x2="81.534" y2="30.6324" width="0.1524" layer="1"/>
 <wire x1="70.104" y1="42.8244" x2="81.534" y2="31.3944" width="0.1524" layer="1"/>
 <wire x1="67.818" y1="42.8244" x2="70.104" y2="42.8244" width="0.1524" layer="1"/>
@@ -2853,7 +2851,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM_D7">
 <contactref element="U2" pad="22"/>
-<contactref element="FET8-4:FET8" pad="4"/>
+<contactref element="F4:FET8" pad="4"/>
 <wire x1="80.9244" y1="31.0134" x2="80.9244" y2="30.6324" width="0.1524" layer="1"/>
 <wire x1="77.4954" y1="34.4424" x2="80.9244" y2="31.0134" width="0.1524" layer="1"/>
 <wire x1="67.818" y1="34.4424" x2="77.4954" y2="34.4424" width="0.1524" layer="1"/>
@@ -2862,13 +2860,13 @@ design rules under a new name.</description>
 <wire x1="66.5988" y1="35.6616" x2="66.547" y2="35.687" width="0.1524" layer="1"/>
 </signal>
 <signal name="HEATER_A0" class="1">
-<contactref element="FET8-1:FET1" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A8"/>
-<contactref element="FET8-1:J1" pad="B8"/>
-<contactref element="FET8-1:FET1" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET1" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET1" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET1" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET1" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A8"/>
+<contactref element="F1:J1" pad="B8"/>
+<contactref element="F1:FET1" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET1" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET1" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET1" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="40.8305" y1="-18.3388" x2="40.8305" y2="-24.9174" width="0.4572" layer="16"/>
 <wire x1="30.099" y1="20.8788" x2="31.5468" y2="20.8788" width="0.4572" layer="1"/>
 <wire x1="29.8704" y1="21.1074" x2="30.099" y2="20.8788" width="0.4572" layer="1"/>
@@ -2884,13 +2882,13 @@ design rules under a new name.</description>
 <wire x1="40.767" y1="-24.9174" x2="40.8305" y2="-24.9174" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B0" class="1">
-<contactref element="FET8-2:FET1" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A8"/>
-<contactref element="FET8-2:J1" pad="B8"/>
-<contactref element="FET8-2:FET1" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET1" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET1" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET1" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET1" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A8"/>
+<contactref element="F2:J1" pad="B8"/>
+<contactref element="F2:FET1" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET1" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET1" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET1" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="43.2435" y1="75.7428" x2="43.2435" y2="82.3214" width="0.4572" layer="16"/>
 <wire x1="49.3776" y1="72.9234" x2="49.3776" y2="64.9224" width="0.4572" layer="1"/>
 <wire x1="48.006" y1="74.295" x2="49.3776" y2="72.9234" width="0.4572" layer="1"/>
@@ -2900,13 +2898,13 @@ design rules under a new name.</description>
 <wire x1="43.2816" y1="75.7428" x2="43.2435" y2="75.7428" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C0" class="1">
-<contactref element="FET8-3:FET1" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A8"/>
-<contactref element="FET8-3:J1" pad="B8"/>
-<contactref element="FET8-3:FET1" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET1" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET1" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET1" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET1" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A8"/>
+<contactref element="F3:J1" pad="B8"/>
+<contactref element="F3:FET1" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET1" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET1" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET1" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="80.4545" y1="-24.6634" x2="80.4545" y2="-18.0848" width="0.4572" layer="16"/>
 <wire x1="64.77" y1="11.8872" x2="68.8848" y2="16.002" width="0.4572" layer="1"/>
 <wire x1="64.77" y1="-9.6774" x2="64.77" y2="11.8872" width="0.4572" layer="1"/>
@@ -2919,13 +2917,13 @@ design rules under a new name.</description>
 <wire x1="80.391" y1="-18.1356" x2="80.4545" y2="-18.0848" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_D0" class="1">
-<contactref element="FET8-4:FET1" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A8"/>
-<contactref element="FET8-4:J1" pad="B8"/>
-<contactref element="FET8-4:FET1" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET1" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET1" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET1" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET1" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A8"/>
+<contactref element="F4:J1" pad="B8"/>
+<contactref element="F4:FET1" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET1" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET1" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET1" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="83.1215" y1="76.2508" x2="83.1215" y2="81.3816" width="0.4572" layer="16"/>
 <wire x1="83.1215" y1="81.3816" x2="83.1215" y2="82.8294" width="0.4572" layer="16"/>
 <wire x1="89.9922" y1="73.533" x2="89.9922" y2="65.4558" width="0.4572" layer="1"/>
@@ -2936,13 +2934,13 @@ design rules under a new name.</description>
 <via x="89.9922" y="73.533" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HEATER_A1" class="1">
-<contactref element="FET8-1:FET2" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A7"/>
-<contactref element="FET8-1:J1" pad="B7"/>
-<contactref element="FET8-1:FET2" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET2" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET2" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET2" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET2" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A7"/>
+<contactref element="F1:J1" pad="B7"/>
+<contactref element="F1:FET2" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET2" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET2" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET2" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="43.5991" y1="-18.3388" x2="43.5991" y2="-24.9174" width="0.4572" layer="16"/>
 <wire x1="31.3944" y1="7.3914" x2="31.5468" y2="7.3914" width="0.4572" layer="1"/>
 <wire x1="27.432" y1="3.429" x2="31.3944" y2="7.3914" width="0.4572" layer="1"/>
@@ -2954,13 +2952,13 @@ design rules under a new name.</description>
 <wire x1="43.5864" y1="-18.3642" x2="43.5991" y2="-18.3388" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B1" class="1">
-<contactref element="FET8-2:FET2" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A7"/>
-<contactref element="FET8-2:J1" pad="B7"/>
-<contactref element="FET8-2:FET2" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET2" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET2" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET2" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET2" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A7"/>
+<contactref element="F2:J1" pad="B7"/>
+<contactref element="F2:FET2" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET2" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET2" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET2" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="40.4749" y1="82.3214" x2="40.4749" y2="75.7428" width="0.4572" layer="16"/>
 <wire x1="56.1594" y1="60.4266" x2="52.8066" y2="57.0738" width="0.4572" layer="1"/>
 <wire x1="56.1594" y1="67.5894" x2="56.1594" y2="60.4266" width="0.4572" layer="1"/>
@@ -2971,13 +2969,13 @@ design rules under a new name.</description>
 <wire x1="40.5384" y1="75.7428" x2="40.4749" y2="75.7428" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C1" class="1">
-<contactref element="FET8-3:FET2" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A7"/>
-<contactref element="FET8-3:J1" pad="B7"/>
-<contactref element="FET8-3:FET2" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET2" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET2" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET2" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET2" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A7"/>
+<contactref element="F3:J1" pad="B7"/>
+<contactref element="F3:FET2" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET2" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET2" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET2" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="83.2231" y1="-18.0848" x2="83.2231" y2="-24.6634" width="0.4572" layer="16"/>
 <wire x1="68.8848" y1="7.3914" x2="68.8848" y2="7.62" width="0.4572" layer="1"/>
 <wire x1="65.532" y1="4.0386" x2="68.8848" y2="7.3914" width="0.4572" layer="1"/>
@@ -2991,13 +2989,13 @@ design rules under a new name.</description>
 <wire x1="83.2104" y1="-18.0594" x2="83.2231" y2="-18.0848" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_D1" class="1">
-<contactref element="FET8-4:FET2" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A7"/>
-<contactref element="FET8-4:J1" pad="B7"/>
-<contactref element="FET8-4:FET2" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET2" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET2" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET2" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET2" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A7"/>
+<contactref element="F4:J1" pad="B7"/>
+<contactref element="F4:FET2" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET2" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET2" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET2" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="80.3529" y1="76.2508" x2="80.3529" y2="82.8294" width="0.4572" layer="16"/>
 <wire x1="89.9922" y1="60.2742" x2="89.9922" y2="57.0738" width="0.4572" layer="1"/>
 <wire x1="88.6968" y1="61.5696" x2="89.9922" y2="60.2742" width="0.4572" layer="1"/>
@@ -3009,13 +3007,13 @@ design rules under a new name.</description>
 <wire x1="80.391" y1="76.2" x2="80.3529" y2="76.2508" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_A2" class="1">
-<contactref element="FET8-1:FET3" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A6"/>
-<contactref element="FET8-1:J1" pad="B6"/>
-<contactref element="FET8-1:FET3" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET3" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET3" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET3" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET3" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A6"/>
+<contactref element="F1:J1" pad="B6"/>
+<contactref element="F1:FET3" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET3" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET3" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET3" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="46.3677" y1="-18.3388" x2="46.3677" y2="-24.9174" width="0.4572" layer="16"/>
 <wire x1="28.575" y1="-3.81" x2="31.5468" y2="-0.8382" width="0.4572" layer="1"/>
 <wire x1="28.4988" y1="-3.81" x2="28.575" y2="-3.81" width="0.4572" layer="1"/>
@@ -3028,13 +3026,13 @@ design rules under a new name.</description>
 <wire x1="46.3296" y1="-18.288" x2="46.3677" y2="-18.3388" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B2" class="1">
-<contactref element="FET8-2:FET3" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A6"/>
-<contactref element="FET8-2:J1" pad="B6"/>
-<contactref element="FET8-2:FET3" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET3" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET3" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET3" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET3" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A6"/>
+<contactref element="F2:J1" pad="B6"/>
+<contactref element="F2:FET3" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET3" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET3" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET3" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="37.7063" y1="75.7428" x2="37.7063" y2="82.3214" width="0.4572" layer="16"/>
 <wire x1="56.9214" y1="52.7304" x2="52.8066" y2="48.6156" width="0.4572" layer="1"/>
 <wire x1="56.9214" y1="67.8942" x2="56.9214" y2="52.7304" width="0.4572" layer="1"/>
@@ -3045,13 +3043,13 @@ design rules under a new name.</description>
 <wire x1="37.719" y1="75.7428" x2="37.7063" y2="75.7428" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C2" class="1">
-<contactref element="FET8-3:FET3" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A6"/>
-<contactref element="FET8-3:J1" pad="B6"/>
-<contactref element="FET8-3:FET3" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET3" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET3" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET3" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET3" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A6"/>
+<contactref element="F3:J1" pad="B6"/>
+<contactref element="F3:FET3" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET3" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET3" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET3" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="85.9917" y1="-24.6634" x2="85.9917" y2="-18.0848" width="0.4572" layer="16"/>
 <wire x1="72.2376" y1="-0.9906" x2="72.2376" y2="-0.381" width="0.4572" layer="1"/>
 <wire x1="71.7804" y1="-1.4478" x2="72.2376" y2="-0.9906" width="0.4572" layer="1"/>
@@ -3066,13 +3064,13 @@ design rules under a new name.</description>
 <via x="71.7804" y="-1.4478" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HEATER_D2" class="1">
-<contactref element="FET8-4:FET3" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A6"/>
-<contactref element="FET8-4:J1" pad="B6"/>
-<contactref element="FET8-4:FET3" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET3" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET3" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET3" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET3" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A6"/>
+<contactref element="F4:J1" pad="B6"/>
+<contactref element="F4:FET3" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET3" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET3" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET3" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="77.5843" y1="76.2508" x2="77.5843" y2="82.8294" width="0.4572" layer="16"/>
 <wire x1="93.4212" y1="49.3014" x2="93.4212" y2="49.0728" width="0.4572" layer="1"/>
 <wire x1="96.774" y1="52.6542" x2="93.4212" y2="49.3014" width="0.4572" layer="1"/>
@@ -3084,26 +3082,26 @@ design rules under a new name.</description>
 <wire x1="77.6478" y1="76.2762" x2="77.5843" y2="76.2508" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_A3" class="1">
-<contactref element="FET8-1:FET4" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A5"/>
-<contactref element="FET8-1:J1" pad="B5"/>
-<contactref element="FET8-1:FET4" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET4" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET4" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET4" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET4" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A5"/>
+<contactref element="F1:J1" pad="B5"/>
+<contactref element="F1:FET4" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET4" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET4" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET4" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="36.6776" y1="-15.494" x2="36.6776" y2="-22.0726" width="0.4572" layer="16"/>
 <wire x1="34.9758" y1="-13.7922" x2="34.9758" y2="-8.5344" width="0.4572" layer="1"/>
 <wire x1="36.6776" y1="-15.494" x2="34.9758" y2="-13.7922" width="0.4572" layer="1"/>
 <wire x1="34.9758" y1="-8.5344" x2="34.9165" y2="-8.509" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B3" class="1">
-<contactref element="FET8-2:FET4" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A5"/>
-<contactref element="FET8-2:J1" pad="B5"/>
-<contactref element="FET8-2:FET4" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET4" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET4" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET4" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET4" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A5"/>
+<contactref element="F2:J1" pad="B5"/>
+<contactref element="F2:FET4" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET4" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET4" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET4" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="47.3964" y1="79.4766" x2="47.3964" y2="72.898" width="0.4572" layer="16"/>
 <wire x1="49.3776" y1="42.8244" x2="49.3776" y2="39.5478" width="0.4572" layer="1"/>
 <wire x1="47.3964" y1="44.8056" x2="49.3776" y2="42.8244" width="0.4572" layer="1"/>
@@ -3111,13 +3109,13 @@ design rules under a new name.</description>
 <wire x1="49.3776" y1="39.5478" x2="49.4115" y2="39.497" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C3" class="1">
-<contactref element="FET8-3:FET4" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A5"/>
-<contactref element="FET8-3:J1" pad="B5"/>
-<contactref element="FET8-3:FET4" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET4" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET4" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET4" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET4" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A5"/>
+<contactref element="F3:J1" pad="B5"/>
+<contactref element="F3:FET4" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET4" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET4" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET4" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="76.3016" y1="-21.8186" x2="76.3016" y2="-15.24" width="0.4572" layer="16"/>
 <wire x1="72.3138" y1="-11.2776" x2="72.3138" y2="-8.763" width="0.4572" layer="1"/>
 <wire x1="76.2762" y1="-15.24" x2="72.3138" y2="-11.2776" width="0.4572" layer="1"/>
@@ -3125,13 +3123,13 @@ design rules under a new name.</description>
 <wire x1="76.2762" y1="-15.24" x2="76.3016" y2="-15.24" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_D3" class="1">
-<contactref element="FET8-4:FET4" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A5"/>
-<contactref element="FET8-4:J1" pad="B5"/>
-<contactref element="FET8-4:FET4" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET4" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET4" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET4" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET4" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A5"/>
+<contactref element="F4:J1" pad="B5"/>
+<contactref element="F4:FET4" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET4" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET4" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET4" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="87.2744" y1="73.406" x2="87.2744" y2="79.9846" width="0.4572" layer="16"/>
 <wire x1="92.8878" y1="40.6908" x2="93.345" y2="40.6908" width="0.4572" layer="1"/>
 <wire x1="92.3544" y1="41.2242" x2="92.8878" y2="40.6908" width="0.4572" layer="1"/>
@@ -3144,39 +3142,39 @@ design rules under a new name.</description>
 <via x="92.3544" y="41.2242" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HEATER_A4" class="1">
-<contactref element="FET8-1:FET5" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A4"/>
-<contactref element="FET8-1:J1" pad="B4"/>
-<contactref element="FET8-1:FET5" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET5" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET5" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET5" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET5" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A4"/>
+<contactref element="F1:J1" pad="B4"/>
+<contactref element="F1:FET5" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET5" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET5" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET5" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="39.4462" y1="-15.494" x2="39.4462" y2="-22.0726" width="0.4572" layer="16"/>
 <wire x1="46.6344" y1="-8.3058" x2="49.9872" y2="-8.3058" width="0.4572" layer="1"/>
 <wire x1="39.4462" y1="-15.494" x2="46.6344" y2="-8.3058" width="0.4572" layer="1"/>
 <wire x1="49.9872" y1="-8.3058" x2="50.0465" y2="-8.255" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B4" class="1">
-<contactref element="FET8-2:FET5" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A4"/>
-<contactref element="FET8-2:J1" pad="B4"/>
-<contactref element="FET8-2:FET5" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET5" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET5" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET5" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET5" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A4"/>
+<contactref element="F2:J1" pad="B4"/>
+<contactref element="F2:FET5" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET5" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET5" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET5" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="44.6278" y1="79.4766" x2="44.6278" y2="72.898" width="0.4572" layer="16"/>
 <wire x1="36.6522" y1="64.9224" x2="34.9758" y2="64.9224" width="0.4572" layer="1"/>
 <wire x1="44.6278" y1="72.898" x2="36.6522" y2="64.9224" width="0.4572" layer="1"/>
 <wire x1="34.9758" y1="64.9224" x2="34.9165" y2="64.896996875" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C4" class="1">
-<contactref element="FET8-3:FET5" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A4"/>
-<contactref element="FET8-3:J1" pad="B4"/>
-<contactref element="FET8-3:FET5" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET5" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET5" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET5" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET5" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A4"/>
+<contactref element="F3:J1" pad="B4"/>
+<contactref element="F3:FET5" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET5" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET5" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET5" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="79.0702" y1="-15.24" x2="79.0702" y2="-21.8186" width="0.4572" layer="16"/>
 <wire x1="85.8012" y1="-8.5344" x2="89.9922" y2="-8.5344" width="0.4572" layer="1"/>
 <wire x1="79.0956" y1="-15.24" x2="85.8012" y2="-8.5344" width="0.4572" layer="1"/>
@@ -3184,13 +3182,13 @@ design rules under a new name.</description>
 <wire x1="79.0956" y1="-15.24" x2="79.0702" y2="-15.24" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_D4" class="1">
-<contactref element="FET8-4:FET5" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A4"/>
-<contactref element="FET8-4:J1" pad="B4"/>
-<contactref element="FET8-4:FET5" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET5" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET5" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET5" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET5" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A4"/>
+<contactref element="F4:J1" pad="B4"/>
+<contactref element="F4:FET5" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET5" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET5" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET5" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="84.5058" y1="79.9846" x2="84.5058" y2="73.406" width="0.4572" layer="16"/>
 <wire x1="76.0476" y1="64.9224" x2="72.3138" y2="64.9224" width="0.4572" layer="1"/>
 <wire x1="84.5058" y1="73.3806" x2="76.0476" y2="64.9224" width="0.4572" layer="1"/>
@@ -3198,13 +3196,13 @@ design rules under a new name.</description>
 <wire x1="84.5058" y1="73.3806" x2="84.5058" y2="73.406" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_A5" class="1">
-<contactref element="FET8-1:FET6" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A3"/>
-<contactref element="FET8-1:J1" pad="B3"/>
-<contactref element="FET8-1:FET6" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET6" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET6" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET6" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET6" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A3"/>
+<contactref element="F1:J1" pad="B3"/>
+<contactref element="F1:FET6" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET6" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET6" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET6" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="42.2148" y1="-15.494" x2="42.2148" y2="-22.0726" width="0.4572" layer="16"/>
 <wire x1="56.388" y1="-3.5814" x2="53.4162" y2="-0.6096" width="0.4572" layer="1"/>
 <wire x1="56.4642" y1="-3.5814" x2="56.388" y2="-3.5814" width="0.4572" layer="1"/>
@@ -3217,13 +3215,13 @@ design rules under a new name.</description>
 <wire x1="42.2148" y1="-15.4686" x2="42.2148" y2="-15.494" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B5" class="1">
-<contactref element="FET8-2:FET6" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A3"/>
-<contactref element="FET8-2:J1" pad="B3"/>
-<contactref element="FET8-2:FET6" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET6" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET6" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET6" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET6" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A3"/>
+<contactref element="F2:J1" pad="B3"/>
+<contactref element="F2:FET6" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET6" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET6" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET6" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="41.8592" y1="79.4766" x2="41.8592" y2="72.898" width="0.4572" layer="16"/>
 <wire x1="31.242" y1="57.4548" x2="31.242" y2="57.0738" width="0.4572" layer="1"/>
 <wire x1="28.194" y1="60.5028" x2="31.242" y2="57.4548" width="0.4572" layer="1"/>
@@ -3235,13 +3233,13 @@ design rules under a new name.</description>
 <wire x1="41.8338" y1="72.8472" x2="41.8592" y2="72.898" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C5" class="1">
-<contactref element="FET8-3:FET6" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A3"/>
-<contactref element="FET8-3:J1" pad="B3"/>
-<contactref element="FET8-3:FET6" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET6" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET6" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET6" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET6" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A3"/>
+<contactref element="F3:J1" pad="B3"/>
+<contactref element="F3:FET6" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET6" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET6" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET6" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="81.8388" y1="-15.24" x2="81.8388" y2="-21.8186" width="0.4572" layer="16"/>
 <wire x1="94.1832" y1="-1.524" x2="93.4212" y2="-1.524" width="0.4572" layer="1"/>
 <wire x1="96.774" y1="-4.1148" x2="94.1832" y2="-1.524" width="0.4572" layer="1"/>
@@ -3252,13 +3250,13 @@ design rules under a new name.</description>
 <wire x1="93.4212" y1="-1.524" x2="93.4165" y2="-1.5115" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_D5" class="1">
-<contactref element="FET8-4:FET6" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A3"/>
-<contactref element="FET8-4:J1" pad="B3"/>
-<contactref element="FET8-4:FET6" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET6" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET6" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET6" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET6" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A3"/>
+<contactref element="F4:J1" pad="B3"/>
+<contactref element="F4:FET6" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET6" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET6" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET6" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="81.7372" y1="79.9846" x2="81.7372" y2="73.406" width="0.4572" layer="16"/>
 <wire x1="65.532" y1="60.5028" x2="68.8848" y2="57.15" width="0.4572" layer="1"/>
 <wire x1="65.532" y1="65.4558" x2="65.532" y2="60.5028" width="0.4572" layer="1"/>
@@ -3269,13 +3267,13 @@ design rules under a new name.</description>
 <wire x1="81.6864" y1="73.3806" x2="81.7372" y2="73.406" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_A6" class="1">
-<contactref element="FET8-1:FET7" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A2"/>
-<contactref element="FET8-1:J1" pad="B2"/>
-<contactref element="FET8-1:FET7" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET7" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET7" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET7" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET7" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A2"/>
+<contactref element="F1:J1" pad="B2"/>
+<contactref element="F1:FET7" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET7" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET7" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET7" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="44.9834" y1="-22.0726" x2="44.9834" y2="-15.494" width="0.4572" layer="16"/>
 <wire x1="49.9872" y1="4.8768" x2="49.9872" y2="8.3058" width="0.4572" layer="1"/>
 <wire x1="49.9872" y1="-10.4394" x2="49.9872" y2="4.8768" width="0.4572" layer="16"/>
@@ -3285,13 +3283,13 @@ design rules under a new name.</description>
 <via x="49.9872" y="4.8768" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HEATER_B6" class="1">
-<contactref element="FET8-2:FET7" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A2"/>
-<contactref element="FET8-2:J1" pad="B2"/>
-<contactref element="FET8-2:FET7" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET7" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET7" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET7" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET7" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A2"/>
+<contactref element="F2:J1" pad="B2"/>
+<contactref element="F2:FET7" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET7" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET7" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET7" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="39.0906" y1="79.4766" x2="39.0906" y2="72.898" width="0.4572" layer="16"/>
 <wire x1="34.671" y1="49.149" x2="34.671" y2="48.006" width="0.4572" layer="1"/>
 <wire x1="34.671" y1="68.3514" x2="34.671" y2="49.149" width="0.4572" layer="16"/>
@@ -3301,13 +3299,13 @@ design rules under a new name.</description>
 <via x="34.671" y="49.149" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HEATER_C6" class="1">
-<contactref element="FET8-3:FET7" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A2"/>
-<contactref element="FET8-3:J1" pad="B2"/>
-<contactref element="FET8-3:FET7" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET7" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET7" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET7" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET7" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A2"/>
+<contactref element="F3:J1" pad="B2"/>
+<contactref element="F3:FET7" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET7" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET7" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET7" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="84.6074" y1="-21.8186" x2="84.6074" y2="-15.24" width="0.4572" layer="16"/>
 <wire x1="89.9922" y1="3.9624" x2="89.9922" y2="8.2296" width="0.4572" layer="1"/>
 <wire x1="89.9922" y1="-9.8298" x2="89.9922" y2="3.9624" width="0.4572" layer="16"/>
@@ -3317,13 +3315,13 @@ design rules under a new name.</description>
 <via x="89.9922" y="3.9624" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HEATER_D6" class="1">
-<contactref element="FET8-4:FET7" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A2"/>
-<contactref element="FET8-4:J1" pad="B2"/>
-<contactref element="FET8-4:FET7" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET7" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET7" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET7" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET7" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A2"/>
+<contactref element="F4:J1" pad="B2"/>
+<contactref element="F4:FET7" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET7" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET7" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET7" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="78.9686" y1="79.9846" x2="78.9686" y2="73.406" width="0.4572" layer="16"/>
 <wire x1="68.8848" y1="48.768" x2="68.8848" y2="48.5394" width="0.4572" layer="1"/>
 <wire x1="64.77" y1="52.8828" x2="68.8848" y2="48.768" width="0.4572" layer="1"/>
@@ -3334,13 +3332,13 @@ design rules under a new name.</description>
 <wire x1="68.8848" y1="48.5394" x2="68.8895" y2="48.5015" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_A7" class="1">
-<contactref element="FET8-1:FET8" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:J1" pad="A1"/>
-<contactref element="FET8-1:J1" pad="B1"/>
-<contactref element="FET8-1:FET8" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET8" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET8" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-1:FET8" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET8" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F1:J1" pad="A1"/>
+<contactref element="F1:J1" pad="B1"/>
+<contactref element="F1:FET8" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET8" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET8" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F1:FET8" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="47.752" y1="-15.494" x2="47.752" y2="-22.0726" width="0.4572" layer="16"/>
 <wire x1="56.388" y1="13.0302" x2="53.4162" y2="16.002" width="0.4572" layer="1"/>
 <wire x1="56.4642" y1="13.0302" x2="56.388" y2="13.0302" width="0.4572" layer="1"/>
@@ -3352,13 +3350,13 @@ design rules under a new name.</description>
 <wire x1="47.7774" y1="-15.4686" x2="47.752" y2="-15.494" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_B7" class="1">
-<contactref element="FET8-2:FET8" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:J1" pad="A1"/>
-<contactref element="FET8-2:J1" pad="B1"/>
-<contactref element="FET8-2:FET8" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET8" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET8" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-2:FET8" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET8" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F2:J1" pad="A1"/>
+<contactref element="F2:J1" pad="B1"/>
+<contactref element="F2:FET8" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET8" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET8" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F2:FET8" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="36.322" y1="79.4766" x2="36.322" y2="72.898" width="0.4572" layer="16"/>
 <wire x1="27.432" y1="43.9674" x2="31.242" y2="40.1574" width="0.4572" layer="1"/>
 <wire x1="27.432" y1="65.7606" x2="27.432" y2="43.9674" width="0.4572" layer="1"/>
@@ -3368,13 +3366,13 @@ design rules under a new name.</description>
 <wire x1="36.2712" y1="72.8472" x2="36.322" y2="72.898" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_C7" class="1">
-<contactref element="FET8-3:FET8" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:J1" pad="A1"/>
-<contactref element="FET8-3:J1" pad="B1"/>
-<contactref element="FET8-3:FET8" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET8" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET8" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-3:FET8" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET8" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F3:J1" pad="A1"/>
+<contactref element="F3:J1" pad="B1"/>
+<contactref element="F3:FET8" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET8" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET8" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F3:FET8" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="87.376" y1="-15.24" x2="87.376" y2="-21.8186" width="0.4572" layer="16"/>
 <wire x1="93.4212" y1="16.002" x2="93.4212" y2="16.2306" width="0.4572" layer="1"/>
 <wire x1="97.536" y1="11.8872" x2="93.4212" y2="16.002" width="0.4572" layer="1"/>
@@ -3384,13 +3382,13 @@ design rules under a new name.</description>
 <wire x1="93.4212" y1="16.2306" x2="93.4165" y2="16.2685" width="0.4572" layer="1"/>
 </signal>
 <signal name="HEATER_D7" class="1">
-<contactref element="FET8-4:FET8" pad="5@1" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:J1" pad="A1"/>
-<contactref element="FET8-4:J1" pad="B1"/>
-<contactref element="FET8-4:FET8" pad="5@2" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET8" pad="5@3" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET8" pad="5@4" route="any" routetag="G$1.D"/>
-<contactref element="FET8-4:FET8" pad="5@5" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET8" pad="5@1" route="any" routetag="G$1.D"/>
+<contactref element="F4:J1" pad="A1"/>
+<contactref element="F4:J1" pad="B1"/>
+<contactref element="F4:FET8" pad="5@2" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET8" pad="5@3" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET8" pad="5@4" route="any" routetag="G$1.D"/>
+<contactref element="F4:FET8" pad="5@5" route="any" routetag="G$1.D"/>
 <wire x1="76.2" y1="73.406" x2="76.2" y2="79.9846" width="0.4572" layer="16"/>
 <wire x1="64.008" y1="45.0342" x2="68.8848" y2="40.1574" width="0.4572" layer="1"/>
 <wire x1="64.008" y1="66.0654" x2="64.008" y2="45.0342" width="0.4572" layer="1"/>

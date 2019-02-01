@@ -6546,17 +6546,17 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <text x="-88.9" y="-33.02" size="1.778" layer="91">TODO: add ground connection for 48VDC supply</text>
 </plain>
 <moduleinsts>
-<moduleinst name="FET8-1" module="FET8" x="154.94" y="111.76">
-<attribute name="NAME" x="154.94" y="111.76" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="F1" module="FET8" x="154.94" y="111.76">
+<attribute name="NAME" value="F1" x="154.94" y="111.76" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="FET8-2" module="FET8" x="154.94" y="86.36">
-<attribute name="NAME" x="154.94" y="86.36" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="F2" module="FET8" x="154.94" y="86.36">
+<attribute name="NAME" value="F2" x="154.94" y="86.36" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="FET8-3" module="FET8" x="154.94" y="45.72">
-<attribute name="NAME" x="154.94" y="45.72" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="F3" module="FET8" x="154.94" y="45.72">
+<attribute name="NAME" value="F3" x="154.94" y="45.72" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="FET8-4" module="FET8" x="154.94" y="20.32">
-<attribute name="NAME" x="154.94" y="20.32" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="F4" module="FET8" x="154.94" y="20.32">
+<attribute name="NAME" value="F4" x="154.94" y="20.32" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -6646,7 +6646,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <bus name="HEATER_A[0..7]">
 <segment>
 <wire x1="121.92" y1="119.38" x2="134.62" y2="119.38" width="0.762" layer="92"/>
-<portref moduleinst="FET8-1" port="HEATER_INPUT[0..7]"/>
+<portref moduleinst="F1" port="HEATER_INPUT[0..7]"/>
 <label x="106.68" y="119.38" size="1.778" layer="95"/>
 </segment>
 </bus>
@@ -6654,7 +6654,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <segment>
 <wire x1="86.36" y1="119.38" x2="86.36" y2="114.3" width="0.762" layer="92"/>
 <wire x1="86.36" y1="114.3" x2="86.36" y2="101.6" width="0.762" layer="92"/>
-<portref moduleinst="FET8-1" port="PWM_INPUT[0..7]"/>
+<portref moduleinst="F1" port="PWM_INPUT[0..7]"/>
 <wire x1="86.36" y1="114.3" x2="134.62" y2="114.3" width="0.762" layer="92"/>
 <label x="88.9" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -6662,7 +6662,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <bus name="HEATER_B[0..7]">
 <segment>
 <wire x1="121.92" y1="93.98" x2="134.62" y2="93.98" width="0.762" layer="92"/>
-<portref moduleinst="FET8-2" port="HEATER_INPUT[0..7]"/>
+<portref moduleinst="F2" port="HEATER_INPUT[0..7]"/>
 <label x="104.14" y="93.98" size="1.778" layer="95"/>
 </segment>
 </bus>
@@ -6671,14 +6671,14 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="86.36" y1="99.06" x2="86.36" y2="88.9" width="0.762" layer="92"/>
 <wire x1="86.36" y1="88.9" x2="86.36" y2="81.28" width="0.762" layer="92"/>
 <wire x1="86.36" y1="88.9" x2="134.62" y2="88.9" width="0.762" layer="92"/>
-<portref moduleinst="FET8-2" port="PWM_INPUT[0..7]"/>
+<portref moduleinst="F2" port="PWM_INPUT[0..7]"/>
 <label x="88.9" y="91.44" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="HEATER_C[0..7]">
 <segment>
 <wire x1="121.92" y1="53.34" x2="134.62" y2="53.34" width="0.762" layer="92"/>
-<portref moduleinst="FET8-3" port="HEATER_INPUT[0..7]"/>
+<portref moduleinst="F3" port="HEATER_INPUT[0..7]"/>
 <label x="101.6" y="53.34" size="1.778" layer="95"/>
 </segment>
 </bus>
@@ -6687,14 +6687,14 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="86.36" y1="50.8" x2="86.36" y2="48.26" width="0.762" layer="92"/>
 <wire x1="86.36" y1="48.26" x2="86.36" y2="33.02" width="0.762" layer="92"/>
 <wire x1="86.36" y1="48.26" x2="134.62" y2="48.26" width="0.762" layer="92"/>
-<portref moduleinst="FET8-3" port="PWM_INPUT[0..7]"/>
+<portref moduleinst="F3" port="PWM_INPUT[0..7]"/>
 <label x="88.9" y="50.8" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="HEATER_D[0..7]">
 <segment>
 <wire x1="121.92" y1="27.94" x2="134.62" y2="27.94" width="0.762" layer="92"/>
-<portref moduleinst="FET8-4" port="HEATER_INPUT[0..7]"/>
+<portref moduleinst="F4" port="HEATER_INPUT[0..7]"/>
 <label x="104.14" y="27.94" size="1.778" layer="95"/>
 </segment>
 </bus>
@@ -6703,7 +6703,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="86.36" y1="30.48" x2="86.36" y2="22.86" width="0.762" layer="92"/>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="12.7" width="0.762" layer="92"/>
 <wire x1="86.36" y1="22.86" x2="134.62" y2="22.86" width="0.762" layer="92"/>
-<portref moduleinst="FET8-4" port="PWM_INPUT[0..7]"/>
+<portref moduleinst="F4" port="PWM_INPUT[0..7]"/>
 <label x="88.9" y="25.4" size="1.778" layer="95"/>
 </segment>
 </bus>
@@ -6845,19 +6845,19 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="-48.26" y="5.08"/>
 </segment>
 <segment>
-<portref moduleinst="FET8-1" port="GND"/>
+<portref moduleinst="F1" port="GND"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<portref moduleinst="FET8-2" port="GND"/>
+<portref moduleinst="F2" port="GND"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<portref moduleinst="FET8-3" port="GND"/>
+<portref moduleinst="F3" port="GND"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<portref moduleinst="FET8-4" port="GND"/>
+<portref moduleinst="F4" port="GND"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 </segment>
 </net>
