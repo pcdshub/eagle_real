@@ -6111,6 +6111,9 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <class number="1" name="heater" width="0.4572" drill="0">
 <clearance class="1" value="0.254"/>
 </class>
+<class number="10" name="heaters" width="0.4572" drill="0">
+<clearance class="10" value="0.254"/>
+</class>
 </classes>
 <modules>
 <module name="FET8" prefix="" dx="30.48" dy="20.32">
@@ -6285,7 +6288,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="FET8" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="HEATER_INPUT0" class="1">
+<net name="HEATER_INPUT0" class="10">
 <segment>
 <wire x1="7.62" y1="45.72" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <label x="7.62" y="53.34" size="1.778" layer="95"/>
@@ -6302,7 +6305,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="43.18" y="60.96"/>
 </segment>
 </net>
-<net name="HEATER_INPUT1" class="1">
+<net name="HEATER_INPUT1" class="10">
 <segment>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 <label x="35.56" y="53.34" size="1.778" layer="95"/>
@@ -6319,7 +6322,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="45.72" y="63.5"/>
 </segment>
 </net>
-<net name="HEATER_INPUT2" class="1">
+<net name="HEATER_INPUT2" class="10">
 <segment>
 <wire x1="66.04" y1="45.72" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <label x="66.04" y="53.34" size="1.778" layer="95"/>
@@ -6336,7 +6339,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="48.26" y="66.04"/>
 </segment>
 </net>
-<net name="HEATER_INPUT3" class="1">
+<net name="HEATER_INPUT3" class="10">
 <segment>
 <wire x1="96.52" y1="45.72" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <label x="96.52" y="53.34" size="1.778" layer="95"/>
@@ -6353,7 +6356,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="50.8" y="68.58"/>
 </segment>
 </net>
-<net name="HEATER_INPUT4" class="1">
+<net name="HEATER_INPUT4" class="10">
 <segment>
 <wire x1="127" y1="45.72" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <label x="127" y="53.34" size="1.778" layer="95"/>
@@ -6370,7 +6373,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="53.34" y="71.12"/>
 </segment>
 </net>
-<net name="HEATER_INPUT5" class="1">
+<net name="HEATER_INPUT5" class="10">
 <segment>
 <wire x1="154.94" y1="45.72" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="154.94" y="53.34" size="1.778" layer="95"/>
@@ -6387,7 +6390,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="55.88" y="73.66"/>
 </segment>
 </net>
-<net name="HEATER_INPUT6" class="1">
+<net name="HEATER_INPUT6" class="10">
 <segment>
 <wire x1="182.88" y1="45.72" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
 <label x="182.88" y="53.34" size="1.778" layer="95"/>
@@ -6404,7 +6407,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="58.42" y="76.2"/>
 </segment>
 </net>
-<net name="HEATER_INPUT7" class="1">
+<net name="HEATER_INPUT7" class="10">
 <segment>
 <wire x1="213.36" y1="45.72" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
 <label x="213.36" y="53.34" size="1.778" layer="95"/>
