@@ -26,7 +26,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1777,143 +1777,111 @@ design rules under a new name.</description>
 <attribute name="MPN" value="0446200002" x="10.16" y="-19.304" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="17.272" y="-21.844" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="9251910" x="10.16" y="-19.304" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="12.7" y="-16.764" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="19.05" y="-26.67" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="F1:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="18.28799375" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A0))" x="32.004" y="18.28799375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.212" y="21.65599375" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="25.804" y="22.98799375" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F1:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="9.9906625" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A1))" x="32.004" y="9.9906625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.196" y="13.8666625" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="25.804" y="14.6906625" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F1:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="1.69333125" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A2))" x="32.004" y="1.69333125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.958" y="5.06133125" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="25.804" y="6.39333125" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F1:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="-6.604" smashed="yes" rot="R270">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A3))" x="32.004" y="-6.604" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.942" y="-2.982" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="25.804" y="-1.904" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F1:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="-6.35" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A4))" x="52.959" y="-6.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="48.005" y="-10.48" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="59.159" y="-11.05" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F1:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="1.94733125" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A5))" x="52.959" y="1.94733125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.021" y="-2.18266875" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="59.159" y="-2.75266875" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F1:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="10.2446625" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A6))" x="52.959" y="10.2446625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="48.259" y="6.6226625" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="59.159" y="5.5446625" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F1:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.959" y="18.54199375" smashed="yes" rot="R90">
 <attribute name="BGA" value="(LAYERS (-16 HEATER_A7))" x="52.959" y="18.54199375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.021" y="14.66599375" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="59.159" y="13.84199375" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F2:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="62.991996875" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.244" y="59.181996875" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="52.324" y="62.991996875" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F2:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="54.52533125" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.514" y="50.71533125" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="52.324" y="54.52533125" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F2:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="46.058665625" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.244" y="41.994665625" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="51.816" y="37.930665625" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F2:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="52.324" y="37.592" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.514" y="33.528" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="52.324" y="37.592" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F2:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="32.004" y="62.991996875" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.322" y="66.293996875" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="32.004" y="62.991996875" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F2:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="54.52533125" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.56" y="57.57333125" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="31.75" y="54.52533125" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F2:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="46.058665625" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.83" y="48.852665625" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="31.75" y="46.058665625" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F2:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="31.75" y="37.592" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.814" y="40.64" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="31.75" y="37.592" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F3:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="18.542" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.422" y="21.59" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="18.542" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F3:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.152" y="12.954" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="10.16" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F3:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="1.524" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.422" y="4.318" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="1.524" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F3:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="-6.858" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.406" y="-4.064" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="-6.858" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F3:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="-6.604" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.376" y="-10.414" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="-6.604" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F3:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="1.016" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.154" y="-2.794" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="1.016" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F3:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.884" y="7.112" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="10.16" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F3:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="18.796" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.154" y="15.494" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="18.796" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F4:FET1" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.884" y="59.436" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="63.5" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F4:FET2" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="55.118" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.408" y="51.308" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="55.118" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F4:FET3" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="46.482" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.884" y="42.418" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="46.482" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F4:FET4" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="92.964" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.154" y="34.036" size="1.4224" layer="25" rot="R90"/>
-<attribute name="VALUE" x="92.964" y="38.1" size="1.4224" layer="27" rot="R90"/>
 </element>
 <element name="F4:FET5" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="62.992" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.152" y="66.548" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="62.992" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F4:FET6" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="54.61" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.914" y="57.912" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="54.61" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F4:FET7" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="45.974" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.406" y="49.53" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="45.974" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="F4:FET8" library="real_library" package="DFN500X600X110-5N" value="ONSEMI_FET_NVMFS5C604NL" x="69.342" y="37.592" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.168" y="41.148" size="1.4224" layer="25" rot="R270"/>
-<attribute name="VALUE" x="69.342" y="37.592" size="1.4224" layer="27" rot="R270"/>
 </element>
 <element name="J2" library="real_library" package="POWER_JACK_PTH" value="POWER_JACK" x="-2.54" y="80.518" smashed="yes" rot="R270">
 <attribute name="NAME" x="-2.54" y="79.248" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
@@ -1937,27 +1905,27 @@ design rules under a new name.</description>
 <attribute name="MPN" value="0446200002" x="10.16" y="0.508" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="17.272" y="-2.794" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="9251910" x="10.16" y="0.508" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="12.7" y="-0.762" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="19.05" y="-6.858" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_CAN" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="120" x="14.13933125" y="63.246" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.47233125" y="65.532" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="SPICEPREFIX" value="120" x="14.13933125" y="63.246" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="12.86933125" y="64.516" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="13.63133125" y="64.516" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R_RS485" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="120" x="18.287996875" y="63.246" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.017996875" y="59.69" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEPREFIX" value="120" x="18.287996875" y="63.246" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="15.747996875" y="64.516" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="19.049996875" y="61.468" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R_SCL" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="4.7K" x="9.990665625" y="63.246" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.466665625" y="60.706" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEPREFIX" value="120" x="9.990665625" y="63.246" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="8.720665625" y="61.976" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.498665625" y="60.96" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R_SDA" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="4.7K" x="5.842" y="63.246" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.064" y="60.198" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEPREFIX" value="120" x="5.842" y="63.246" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="8.382" y="61.976" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="6.35" y="61.214" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$1" library="real_library" package="CAN485" value="CAN485FULL_SOCKET" x="12.192" y="29.718" smashed="yes" rot="R180"/>
 <element name="U1" library="real_library" package="TSSOP28" value="" x="41.402" y="28.194" smashed="yes">
@@ -1976,7 +1944,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.05918125" y="-32.7287" size="1.27083125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="47.752" y="-15.494" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="31.5958" y="-41.903" size="1.272040625" layer="27"/>
+<attribute name="VALUE" x="31.0878" y="-31.997" size="1.272040625" layer="27"/>
 </element>
 <element name="F2:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="36.322" y="72.898" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1986,7 +1954,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="57.76081875" y="89.6247" size="1.27083125" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="36.322" y="72.898" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="52.4782" y="99.307" size="1.272040625" layer="27" rot="R180"/>
+<attribute name="VALUE" x="46.3822" y="89.147" size="1.272040625" layer="27" rot="R180"/>
 </element>
 <element name="F3:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="87.376" y="-15.24" smashed="yes">
 <attribute name="AVAILABILITY" value="Unavailable" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
@@ -1996,7 +1964,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.93718125" y="-32.7287" size="1.27083125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="87.376" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="71.2198" y="-41.649" size="1.272040625" layer="27"/>
+<attribute name="VALUE" x="68.9338" y="-31.489" size="1.272040625" layer="27"/>
 </element>
 <element name="F4:J1" library="real_library" package="NORCOMP_189-009-513R571" value="NORCOMP_189-009-513R571" x="76.2" y="73.406" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2006,7 +1974,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="99.21118125" y="81.3173" size="1.27083125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="76.2" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="92.3562" y="99.815" size="1.272040625" layer="27" rot="R180"/>
+<attribute name="VALUE" x="89.8162" y="89.909" size="1.272040625" layer="27" rot="R180"/>
 </element>
 </elements>
 <signals>
