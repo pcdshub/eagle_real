@@ -6,19 +6,33 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -32,13 +46,13 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -1023,6 +1037,38 @@ Breadboard-friendly pins.
 <smd name="5@2" x="-2.5275" y="-0.4525" dx="0.905" dy="0.495" layer="1" rot="R90"/>
 <smd name="5@3" x="2.5275" y="-0.4525" dx="0.905" dy="0.495" layer="1" rot="R90"/>
 </package>
+<package name="TERMINAL_BLOCK_PHOENIX">
+<description>Phoenix Contact 2 terminal block 15mm. 
+P/N:1932588
+Digikey: 277-6402-ND
+
+125A and 600V
+
+Wire gauge 2-20 AWG.
+
+Through hole, Rising Cage Clamp Screw terminal.</description>
+<wire x1="-15" y1="-15.5" x2="-15" y2="15.5" width="0.1524" layer="21"/>
+<wire x1="-15" y1="15.5" x2="15" y2="15.5" width="0.1524" layer="21"/>
+<wire x1="15" y1="15.5" x2="15" y2="-15.5" width="0.1524" layer="21"/>
+<wire x1="15" y1="-15.5" x2="-15" y2="-15.5" width="0.1524" layer="21"/>
+<circle x="-6.9" y="-9.8" radius="4.045984375" width="0.1524" layer="21"/>
+<circle x="7.8" y="-9.8" radius="4.332434375" width="0.1524" layer="21"/>
+<pad name="P$1" x="9.4" y="12.4" drill="1.6" shape="square"/>
+<pad name="P$2" x="5.6" y="12.4" drill="1.6"/>
+<pad name="P$3" x="-5.6" y="12.4" drill="1.6"/>
+<pad name="P$4" x="-9.4" y="12.4" drill="1.6"/>
+<pad name="P$5" x="9.4" y="-0.1" drill="1.6"/>
+<pad name="P$6" x="5.6" y="-0.1" drill="1.6"/>
+<pad name="P$7" x="-5.6" y="-0.1" drill="1.6"/>
+<pad name="P$8" x="-9.4" y="-0.1" drill="1.6"/>
+<text x="6.7" y="-13.6" size="1.778" layer="25">T1</text>
+<text x="-8.1" y="-13.5" size="1.778" layer="25">T2</text>
+<text x="-11.3" y="-5" size="1.778" layer="25">PWR Terminal Block</text>
+<wire x1="-15.05" y1="15.55" x2="15.05" y2="15.55" width="0.127" layer="39"/>
+<wire x1="15.05" y1="15.55" x2="15.05" y2="-15.55" width="0.127" layer="39"/>
+<wire x1="15.05" y1="-15.55" x2="-15.05" y2="-15.55" width="0.127" layer="39"/>
+<wire x1="-15.05" y1="-15.55" x2="-15.05" y2="15.55" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="0446200002" urn="urn:adsk.eagle:package:8078921/1" type="box">
@@ -1362,6 +1408,19 @@ Source: &lt;a href=http://de.farnell.com/molex/0446200002/buchse-rj45-geschirmt/
 <pin name="B8" x="12.7" y="-17.78" length="middle" direction="pas" rot="R180"/>
 <pin name="B9" x="12.7" y="-20.32" length="middle" direction="pas" rot="R180"/>
 <pin name="SHIELD" x="12.7" y="-25.4" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="MTA-1_2">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.08" y="-1.27" size="1.27" layer="95">1</text>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1754,6 +1813,22 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <connect gate="G$1" pin="D" pad="5@1 5@2 5@3 5@4 5@5" route="any"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PHOENIX_TERMINAL_BLOCK">
+<gates>
+<gate name="G$1" symbol="MTA-1_2" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TERMINAL_BLOCK_PHOENIX">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1 P$2 P$5 P$6"/>
+<connect gate="G$1" pin="2" pad="P$3 P$4 P$7 P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
